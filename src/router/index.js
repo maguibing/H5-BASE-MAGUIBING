@@ -41,25 +41,25 @@ routes.push(
       meta: {
         title: '首页'
       }
-    },
-    // 无权限页面
-    {
-      path: '/no-permission',
-      name: 'NoPermission',
-      component: () => import('@/views/error-page/no-permission'),
-      meta: {
-        title: '访问无权限'
-      }
-    },
-    // 404 页面路由
-    {
-      path: '*',
-      name: 'NotFound',
-      component: () => import('@/views/error-page/404'),
-      meta: {
-        title: '页面走丢了'
-      }
     }
+    // // 无权限页面
+    // {
+    //   path: '/no-permission',
+    //   name: 'NoPermission',
+    //   component: () => import('@/views/error-page/no-permission'),
+    //   meta: {
+    //     title: '访问无权限'
+    //   }
+    // }
+    // 404 页面路由
+    // {
+    //   path: '*',
+    //   name: 'NotFound',
+    //   component: () => import('@/views/error-page/404'),
+    //   meta: {
+    //     title: '页面走丢了'
+    //   }
+    // }
   ]
 )
 

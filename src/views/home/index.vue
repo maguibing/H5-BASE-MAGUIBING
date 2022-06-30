@@ -3,7 +3,9 @@
  * @FilePath: \vue-base\src\views\home\index.vue
 -->
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <div>123</div>
+  </div>
 </template>
 
 <style lang="less" scoped>
